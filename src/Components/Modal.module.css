@@ -1,0 +1,48 @@
+.Modal {
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
+  z-index: 55;
+  width: 80%;
+  margin: auto;
+  border-radius: 1.5rem;
+  padding-bottom: 40px;
+  transition: all 1s;
+}
+
+.BigModal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 555;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.65);
+}
+.Account {
+  color: #fff;
+  text-align: center;
+  font-weight: 100;
+  font-size: 20px;
+  background-color: #b34666;
+  padding: 3.4rem 7.8rem;
+  border-radius: 15px 15px 0 0;
+}
+input::placeholder {
+  font-size: 14px;
+}
+input {
+  width: 75%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  border: none;
+  border-bottom: solid #e6e6e6 1px;
+  margin-bottom: 36.5px;
+  padding: 8.5px 5px;
+}
+
+.First {
+  margin-top: 30px;
+}
