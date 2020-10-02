@@ -5,61 +5,61 @@
 }
 
 @font-face {
-  font-family: "candlestick";
-  src: url(fonts/candlestick/candlescript_demo_version-webfont.woff);
+  font-family: "milliardbold";
+  src: url("fonts/Millard-f/rene_bieder__milliard_bold-webfont.woff2")
+      format("woff2"),
+    url("fonts/Millard-f/rene_bieder__milliard_bold-webfont.woff")
+      format("woff");
   font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: "millard";
-  src: url(fonts/Millard-f/rene_bieder__milliard_bold-webfont.woff);
-  font-weight: bold;
-}
-@font-face {
-  font-family: "millard";
-  src: url(fonts/Millard-f/rene_bieder__milliard_light-webfont.woff);
-  font-weight: light;
-}
-@font-face {
-  font-family: "millard";
-  src: url(fonts/Millard-f/rene_bieder__milliard_medium-webfont.woff);
-  font-weight: medium;
+  font-family: "milliardbook";
+  src: url("fonts/Millard-f/rene_bieder__milliard_book-webfont.woff2")
+      format("woff2"),
+    url("fonts/Millard-f/rene_bieder__milliard_book-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: "millard";
-  src: url(fonts/Millard-f/rene_bieder__milliard_semibold-webfont.woff);
-  font-weight: semibold;
+  font-family: "milliardlight";
+  src: url("fonts/Millard-f/rene_bieder__milliard_light-webfont.woff2")
+      format("woff2"),
+    url("fonts/Millard-f/rene_bieder__milliard_light-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
+
 @font-face {
-  font-family: "millard";
-  src: url(fonts/Millard-f/rene_bieder__milliard_book-webfont.woff);
-  font-weight: 100;
+  font-family: "milliardmedium";
+  src: url("fonts/Millard-f/rene_bieder__milliard_medium-webfont.woff2")
+      format("woff2"),
+    url("fonts/Millard-f/rene_bieder__milliard_medium-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "milliardsemibold";
+  src: url("fonts/Millard-f/rene_bieder__milliard_semibold-webfont.woff2")
+      format("woff2"),
+    url("fonts/Millard-f/rene_bieder__milliard_semibold-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 html {
   scroll-behavior: smooth;
-  font-family: "millard", sans-serif;
+  font-family: "millardbook", sans-serif;
   font-size: 10px;
 }
 body {
   overflow-x: hidden;
   height: 100vh;
-}
-
-.sign-up::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
-}
-.sign-up {
-  position: relative;
-  height: 100%;
-  width: 100%;
-  background: url(./images/login-img.png);
-  background-repeat: no-repeat;
 }

@@ -9,3 +9,7 @@
 .Postion {
   position: relative;
 }
+
+.Hide {
+  display: none;
+}
