@@ -1,0 +1,70 @@
+.Ahero {
+  width: 100%;
+}
+.Backarr {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.Obi {
+  position: absolute;
+  top: 25.7px;
+  right: 30px;
+}
+
+.AmaDiv {
+  width: 100%;
+  margin-top: -58px;
+  position: relative;
+  border-radius: 35px 35px 0 0;
+  z-index: 555;
+  background-color: #ffffff;
+  text-align: left;
+  padding: 18px 30px;
+}
+
+.AmaDiv h1 {
+  color: #000;
+  font-family: "milliardbook";
+  font-size: 36px;
+}
+
+.SmallDiv {
+  display: flex;
+  flex-direction: row;
+  margin: 9px auto;
+  align-items: center;
+}
+
+.SmallDiv img {
+  margin-right: 10px;
+}
+.AmaDiv p {
+  color: #9d9d9d;
+  font-family: "milliardbook";
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 33px;
+}
+
+.AmaDiv h3 {
+  color: #1c1c1c;
+  font-family: "milliardsemibold";
+  font-size: 14px;
+}
+
+.AmaDiv h4 {
+  font-family: "milliardsemibold";
+  font-size: 20px;
+}
+
+.Overall {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  overflow: scroll;
+  margin-top: 20px;
+  height: 100%;
+  /* justify-content: end; */
+}

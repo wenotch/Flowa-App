@@ -1,0 +1,75 @@
+.FlowaImg {
+  background: url(./../../images/Flowa-home.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  width: 100vw;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+.NavImg {
+  margin-top: 24px;
+}
+
+.Herotxt {
+  font-family: "milliardmedium";
+  font-size: 36px;
+  color: #ffffff;
+  margin: 50px auto 15px;
+  text-align: left;
+  margin-left: 30px;
+}
+
+input {
+  background-color: rgba(179, 70, 102, 0.77);
+  border-radius: 10px;
+  width: 84%;
+  border: none;
+  padding: 8.5px 5px;
+  margin-bottom: 33px;
+}
+
+input::placeholder {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 26px;
+  color: #ffffff;
+  font-family: "milliardbook";
+  font-size: 16px;
+}
+
+input:focus {
+  padding-left: 10px;
+  color: #fff;
+  font-family: "milliardbook";
+}
+
+.Postarea {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 115px;
+}
+
+.LastDiv {
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.28);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  /* margin-top: 100vh; */
+  justify-content: space-around;
+  padding: 28px;
+  z-index: 5555;
+  background-color: #fff;
+}
+
+.PostaLink {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.Accountlink {
+  position: fixed;
+  right: 28px;
+}

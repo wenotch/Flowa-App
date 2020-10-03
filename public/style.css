@@ -56,10 +56,13 @@
 
 html {
   scroll-behavior: smooth;
-  font-family: "millardbook", sans-serif;
+  font-family: "milliardbook", sans-serif;
   font-size: 10px;
 }
 body {
   overflow-x: hidden;
-  height: 100vh;
+}
+
+a {
+  text-decoration: none;
 }

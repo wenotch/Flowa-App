@@ -1,0 +1,141 @@
+.Hero {
+  width: 100%;
+}
+
+.Backarr {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.Ppp {
+  position: relative;
+  top: -75px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  text-align: center;
+}
+.Ppp h2 {
+  font-family: "milliardbold";
+  font-size: 20px;
+}
+
+.Ppp p {
+  font-size: 10px;
+  font-family: "milliardmedium";
+}
+.Ppp img {
+  /* margin-right: 3.5px; */
+  margin-left: 10px;
+}
+.Tagname {
+  color: black;
+  position: relative;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.Tagname img {
+  width: 12%;
+}
+
+.Cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  width: 40%;
+  text-align: center;
+  margin: auto;
+  margin-top: 6px;
+  justify-content: space-evenly;
+}
+/* .EachPosts {
+  display: inline-block;
+  width: 50%;
+}
+.Down {
+  margin-top: 60px;
+  position: relative;
+  right: 0;
+} */
+
+.Main {
+  width: 84%;
+  margin: auto;
+  /* padding-bottom: 00px; */
+}
+.Buttons {
+  /* align-items: flex-end; */
+  display: flex;
+  margin-top: 60px;
+  justify-content: space-between;
+}
+
+.Buttons button {
+  font-size: 16px;
+  background-color: white;
+  color: #9d9d9d;
+  border: none;
+  font-family: "milliardbook";
+}
+
+.Buttons .Centerbtn {
+  font-family: "milliardbold";
+  color: #000000;
+}
+
+.EachPost {
+  display: inline-flex;
+  /* padding-right: 10px; */
+  width: 47%;
+  text-align: left;
+  border-radius: 10px;
+  border: 2px #ffffff solid;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.28);
+  margin-top: 15px;
+}
+
+.EachPost img {
+  width: 100%;
+  margin: 0 !important;
+  border-radius: 10px !important;
+}
+/* .EachPost .Likeimg {
+  width: 10%;
+  ba
+} */
+.Cct {
+  display: flex;
+  justify-content: space-between;
+}
+
+.LastDivv {
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.28);
+  position: fixed;
+  bottom: 0;
+  /* transform: translateY(-100vh); */
+  left: 0;
+  width: 100%;
+  /* margin-top: ; */
+  /* margin-top: 100vh; */
+  justify-content: space-around;
+  padding: 28px;
+  z-index: 55;
+  background-color: rgb(255, 255, 255);
+}
+
+.PostaLink {
+  margin-left: 45%;
+  transform: translateX(-50%);
+}
+.Accountlink {
+  position: fixed;
+  right: 28px;
+}
+.Homelink {
+  position: fixed;
+  left: 28px;
+}
